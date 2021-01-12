@@ -195,6 +195,7 @@ resource "aws_key_pair" "hashicat" {
 }
 
 
+ resource "null_resource" "example" {
   provisioner "local-exec" {
     command = "env"
   }
